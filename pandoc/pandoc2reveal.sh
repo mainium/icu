@@ -6,7 +6,8 @@ echo USAGE::
 echo '  pandoc2reveal.sh "[源文稿名]"'
 echo '  NOT .md'
 
-AIMP='../docs'
+#AIMP='../docs'
+AIMP='..'
 NAME=$1
 if [ -z $NAME ] ;then    
     echo ALERT::
